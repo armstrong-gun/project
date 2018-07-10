@@ -196,4 +196,45 @@
             }
         }
     }
+    //前面注释我不想写
+    //下面是导航 和 轮播图的盒子
+    .main_page {
+        height: 480px;
+        // background: pink;
+        //左边导航栏开始
+        .left_nav_toomany {
+            overflow: hidden;
+            float: left;
+            height: 480px;
+            width: 190px;
+            background: #fff;
+            margin-right: 10px;
+            .left_nav_ulbox {
+                padding: 10px 0;
+                height: 460px;
+                background-color: #fefefe;
+                color: #636363;
+            }
+            li {
+                padding-left: 18px;
+                height: 27px;
+                line-height: 27px;
+                font-size: 14px;
+                overflow: hidden;
+            }
+        }
+        //左边导航栏结束
+        //轮播图盒子
+        .right_slideshow_and_notice {
+            float: right;
+            // position: relative;
+            width: 990px;
+            .right_slideshow_ulbox {
+                position: relative;
+                li {
+                    position: absolute;
+                }
+            }
+        }
+    }
 }

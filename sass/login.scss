@@ -1,5 +1,7 @@
 .login {
     //版心
+    color: #999;
+    font-size: 12px;
     .warp {
         width: 990px;
         margin: 0 auto;
@@ -43,7 +45,7 @@
     .login_warp {
         position: relative;
         height: 475px;
-        margin: 10px 0 20px;
+        margin: 0 0 20px 0;
         z-index: 5;
         background-color: #ff6c39;
     }
@@ -65,7 +67,7 @@
     }
     .login_from {
         width: 346px;
-        height: 380px;
+        height: 400px;
         background: white;
         position: absolute;
         top: 15px;
@@ -139,12 +141,15 @@
             }
         }
         .wechat {
+            width: 306px;
             padding-left: 20px;
             padding-right: 20px;
             line-height: 60px;
             border-top: 1px solid #f4f4f4;
             height: 50px;
             background-color: #fcfcfc;
+            position: absolute;
+            bottom: 0;
             .wechatul {
                 .register {
                     float: right;
@@ -164,11 +169,18 @@
                         padding-right: 10px;
                         border-right: 1px solid #ccc;
                     }
+                    .qf-xiangyoujiantou {
+                        color: red;
+                    }
                     i {
                         margin-right: 5px;
                     }
                 }
             }
         }
+    }
+    .main_page {
+        height: 480px;
+        background: pink;
     }
 }
