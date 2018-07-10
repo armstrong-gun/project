@@ -1,0 +1,150 @@
+.login {
+    //版心
+    .warp {
+        width: 990px;
+        margin: 0 auto;
+    }
+    .logo_w {
+        height: 80px;
+    }
+    .logo {
+        position: relative;
+        width: 300px;
+        margin: 10px 0;
+        height: 60px;
+        float: left;
+        b {
+            display: block;
+            width: 110px;
+            height: 40px;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            background: url(http://misc.360buyimg.com/user/passport/1.0.0/css/i/l-icon.png) no-repeat;
+        }
+    }
+    .q_link {
+        position: relative;
+        color: #999;
+        float: right;
+        top: 52px;
+        b {
+            color: red;
+            font-size: 18px;
+        }
+    }
+    .tips {
+        background: #fff8f0;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .login_warp {
+        position: relative;
+        height: 475px;
+        margin: 10px 0 20px;
+        z-index: 5;
+        background-color: #ff6c39;
+    }
+    .login_banner {
+        height: 100%;
+        background: url(http://img10.360buyimg.com/da/jfs/t21184/205/2021050316/60386/371526a3/5b430a9dN81d5c13d.jpg) 0px 0px no-repeat;
+    }
+    .link {
+        height: 56px;
+        padding-bottom: 30px;
+        text-align: center;
+        a {
+            padding: 0 10px;
+            border-right: 1px solid #ccc;
+        }
+        p {
+            margin: 10px 0;
+        }
+    }
+    .login_from {
+        width: 346px;
+        height: 400px;
+        background: white;
+        position: absolute;
+        top: 15px;
+        right: 135px;
+        .tips_top {
+            background: #fff8f0;
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        .login_tab {
+            width: 100%;
+            height: 54px;
+            font-size: 18px;
+            font-family: "microsoft yahei";
+            text-align: center;
+            border-bottom: 1px solid #f4f4f4;
+            // position: absolute;
+            background: #fff;
+            display: block;
+            // background: red;
+            .login_tabl {
+                height: 100%;
+                width: 172px;
+                float: left;
+                line-height: 54px;
+                border-right: 1px solid #f4f4f4;
+            }
+            .login_tabr {
+                height: 100%;
+                width: 173px;
+                float: right;
+                line-height: 54px;
+            }
+        }
+        .form {
+            width: 306px;
+            height: 192px;
+            margin: 23px auto;
+            // background: red;
+            input {
+                line-height: 18px;
+                height: 18px;
+                // border: 0;
+                padding: 10px 0 10px 50px;
+                width: 254px;
+                float: none;
+                overflow: hidden;
+                font-size: 14px;
+                font-family: '\5b8b\4f53';
+                margin: 10px 0;
+            }
+            p {
+                float: right;
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
+            .submit {
+                padding: 0;
+                outline: rgb(109, 109, 109) none 0px;
+                border: 1px solid #e85356;
+                display: block;
+                width: 302px;
+                background: #e4393c;
+                height: 31px;
+                line-height: 31px;
+                color: #fff;
+                font-size: 20px;
+                font-family: 'Microsoft YaHei';
+            }
+        }
+        .wechat {
+            padding-left: 20px;
+            padding-right: 20px;
+            line-height: 50px;
+            border-top: 1px solid #f4f4f4;
+            height: 50px;
+            background-color: #fcfcfc;
+        }
+    }
+}

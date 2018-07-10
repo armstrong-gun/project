@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+span {
+    display: inline-block;
+}
+
+.qf-dingwei {
+    color: red;
+}
+
+.qf-arrowdown {
+    font-size: 6px;
+    padding-left: 5px;
+}
+
+.warp {
+    width: 990px;
+    /* background: pink; */
+    margin: 0 auto;
+}
+
+.top_img_warp {
+    height: 80px;
+    width: 100%;
+    background: #930d12;
+}
+
+.top_img {
+    width: 100%;
+    height: 80px;
+    background: url(http://img12.360buyimg.com/da/jfs/t20080/218/1835767673/53056/5198b361/5b3f422eNfd087d19.jpg) no-repeat 50% 0;
+}
+
+.nav_top {
+    background: #e3e4e5;
+    ;
+    height: 30px;
+    line-height: 30px;
+    color: #999;
+}
+
+.location {
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+}
+
+.nav_top ul {
+    float: right;
+}
+
+.nav_top ul li {
+    /* height: 12px; */
+    float: left;
+}
+
+.nav_top ul li a {
+    /* display: inline-block; */
+    /* line-height: 30px; */
+    height: 12px;
+    padding: 0 10px;
+    border-right: 1px solid #999;
+    color: #999;
+}
+
+.nav_top ul li a:hover {
+    color: #f10215;
+}
+
+.nav_top ul li a:hover span {
+    color: #999;
+}
+
+.nav_top ul li:nth-child(1) a {
+    /* background: #fff; */
+    border: none;
+    padding: 0;
+}
+
+.nav_top ul li:nth-child(9) a {
+    border: none;
+}
+
+.nav_top ul li:nth-child(2) a {
+    color: #f10215
+}
+
+.nav_left_width {
+    display: inline-block;
+    width: 190px;
+    height: 10px;
+    position: relative;
+    float: left;
+}
+
+.nav_left_main {
+    display: block;
+    width: 190px;
+    height: 170px;
+    position: absolute;
+    background-image: url(http://misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.head.png);
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.2);
+}

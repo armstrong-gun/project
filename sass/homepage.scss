@@ -1,0 +1,198 @@
+.homepage {
+    // 服务端字体‘定位’
+    .qf-dingwei {
+        color: red;
+    }
+    //服务端字体‘下箭头’
+    .qf-arrowdown {
+        font-size: 6px;
+        padding-left: 5px;
+    }
+    // 网页版心
+    .warp {
+        width: 1190px;
+        /* background: pink; */
+        margin: 0 auto;
+    }
+    //广告版面
+    .top_img_warp {
+        height: 80px;
+        width: 100%;
+        background: #930d12;
+    }
+    //
+    .top_img {
+        width: 100%;
+        height: 80px;
+        background: url(http://img12.360buyimg.com/da/jfs/t20080/218/1835767673/53056/5198b361/5b3f422eNfd087d19.jpg) no-repeat 50% 0;
+    }
+    .nav_top {
+        background: #e3e4e5;
+        ;
+        height: 30px;
+        line-height: 30px;
+        color: #999;
+    }
+    .location {
+        // display: inline-block;
+        float: left;
+        margin-left: 10px;
+    }
+    .nav_top ul {
+        float: right;
+    }
+    .nav_top ul li {
+        /* height: 12px; */
+        float: left;
+    }
+    .nav_top ul li a {
+        /* display: inline-block; */
+        /* line-height: 30px; */
+        height: 12px;
+        padding: 0 10px;
+        border-right: 1px solid #999;
+        color: #999;
+    }
+    .nav_top ul li a:hover {
+        color: #f10215;
+    }
+    .nav_top ul li a:hover span {
+        color: #999;
+    }
+    .nav_top ul li:nth-child(1) a {
+        /* background: #fff; */
+        border: none;
+        padding: 0;
+    }
+    .nav_top ul li:nth-child(9) a {
+        border: none;
+    }
+    .nav_top ul li:nth-child(2) a {
+        color: #f10215
+    }
+    .nav_left_width {
+        // display: inline-block;
+        width: 190px;
+        height: 10px;
+        position: relative;
+        float: left;
+    }
+    .nav_left_main {
+        display: block;
+        width: 190px;
+        height: 170px;
+        position: absolute;
+        background-image: url(http://misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.head.png);
+        box-shadow: 5px 0 5px rgba(0, 0, 0, 0.2);
+    }
+    .lbox {
+        width: 200px;
+        height: 170px;
+        visibility: visible;
+        float: left;
+    }
+    #header {
+        height: 140px;
+        // background: pink;
+        position: relative;
+    }
+    .search_box_warp {
+        height: 60px;
+        position: relative;
+    }
+    .search_box {
+        width: 550px;
+        height: 35px;
+        position: absolute;
+        top: 25px;
+        left: 320px;
+        input {
+            padding: 4px 44px 4px 4px;
+            width: 450px;
+            height: 25px;
+            outline: none;
+            border: 1px solid transparent;
+            float: left;
+        }
+        span {
+            position: absolute;
+            top: 10px;
+            right: 65px;
+            font-size: 18px;
+            color: #666;
+        }
+        button {
+            width: 50px;
+            height: 35px;
+            right: 0;
+            line-height: 35px;
+            border: none;
+            background-color: #f10215;
+            float: left;
+            color: #fff;
+        }
+    }
+    .shopping_trolley {
+        width: 190px;
+        height: 35px;
+        position: absolute;
+        top: 25px;
+        right: 100px;
+        background: #fff;
+        text-align: center;
+        line-height: 33px;
+        color: #f10214;
+        span {
+            margin-right: 5px;
+        }
+        a {
+            color: #f10214;
+        }
+    }
+    .hotwords {
+        width: 550px;
+        height: 20px;
+        position: absolute;
+        left: 320px;
+        top: 65px;
+        line-height: 20px;
+        .getred {
+            color: #f10215;
+        }
+        a:hover {
+            color: #c81623;
+        }
+        a {
+            margin-right: 10px;
+            color: #999;
+        }
+    }
+    .navitems {
+        // overflow: hidden;
+        position: absolute;
+        left: 200px;
+        bottom: 0;
+        width: 790px;
+        height: 40px;
+        padding-top: 20px;
+        line-height: 40px;
+        li {
+            float: left;
+            margin-left: 30px;
+        }
+        li:nth-child(4) {
+            a {
+                padding-right: 10px;
+                border-right: 1px solid #ccc;
+            }
+        }
+        .navitems_group2 {
+            li:nth-child(4) {
+                a {
+                    padding-right: 10px;
+                    border-right: 1px solid #ccc;
+                }
+            }
+        }
+    }
+}
