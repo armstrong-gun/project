@@ -65,7 +65,7 @@
     }
     .login_from {
         width: 346px;
-        height: 400px;
+        height: 380px;
         background: white;
         position: absolute;
         top: 15px;
@@ -141,10 +141,34 @@
         .wechat {
             padding-left: 20px;
             padding-right: 20px;
-            line-height: 50px;
+            line-height: 60px;
             border-top: 1px solid #f4f4f4;
             height: 50px;
             background-color: #fcfcfc;
+            .wechatul {
+                .register {
+                    float: right;
+                }
+                height: 50px;
+                li {
+                    float: left;
+                    width: 69px;
+                    height: 50px;
+                    .qf-qq {
+                        color: skyblue;
+                    }
+                    .qf-wechat {
+                        color: green;
+                    }
+                    .qq {
+                        padding-right: 10px;
+                        border-right: 1px solid #ccc;
+                    }
+                    i {
+                        margin-right: 5px;
+                    }
+                }
+            }
         }
     }
 }

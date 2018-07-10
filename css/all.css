@@ -18,174 +18,153 @@ a {
 span {
   display: inline-block; }
 
-.homepage .qf-dingwei {
-  color: red; }
-
-.homepage .qf-arrowdown {
-  font-size: 6px;
-  padding-left: 5px; }
-
-.homepage .warp {
-  width: 1190px;
-  /* background: pink; */
-  margin: 0 auto; }
-
-.homepage .top_img_warp {
-  height: 80px;
-  width: 100%;
-  background: #930d12; }
-
-.homepage .top_img {
-  width: 100%;
-  height: 80px;
-  background: url(http://img12.360buyimg.com/da/jfs/t20080/218/1835767673/53056/5198b361/5b3f422eNfd087d19.jpg) no-repeat 50% 0; }
-
-.homepage .nav_top {
-  background: #e3e4e5;
-  height: 30px;
-  line-height: 30px;
-  color: #999; }
-
-.homepage .location {
-  float: left;
-  margin-left: 10px; }
-
-.homepage .nav_top ul {
-  float: right; }
-
-.homepage .nav_top ul li {
-  /* height: 12px; */
-  float: left; }
-
-.homepage .nav_top ul li a {
-  /* display: inline-block; */
-  /* line-height: 30px; */
-  height: 12px;
-  padding: 0 10px;
-  border-right: 1px solid #999;
-  color: #999; }
-
-.homepage .nav_top ul li a:hover {
-  color: #f10215; }
-
-.homepage .nav_top ul li a:hover span {
-  color: #999; }
-
-.homepage .nav_top ul li:nth-child(1) a {
-  /* background: #fff; */
-  border: none;
-  padding: 0; }
-
-.homepage .nav_top ul li:nth-child(9) a {
-  border: none; }
-
-.homepage .nav_top ul li:nth-child(2) a {
-  color: #f10215; }
-
-.homepage .nav_left_width {
-  width: 190px;
-  height: 10px;
-  position: relative;
-  float: left; }
-
-.homepage .nav_left_main {
-  display: block;
-  width: 190px;
-  height: 170px;
-  position: absolute;
-  background-image: url(http://misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.head.png);
-  box-shadow: 5px 0 5px rgba(0, 0, 0, 0.2); }
-
-.homepage .lbox {
-  width: 200px;
-  height: 170px;
-  visibility: visible;
-  float: left; }
-
-.homepage #header {
-  height: 140px;
-  position: relative; }
-
-.homepage .search_box_warp {
-  height: 60px;
-  position: relative; }
-
-.homepage .search_box {
-  width: 550px;
-  height: 35px;
-  position: absolute;
-  top: 25px;
-  left: 320px; }
-  .homepage .search_box input {
-    padding: 4px 44px 4px 4px;
-    width: 450px;
-    height: 25px;
-    outline: none;
-    border: 1px solid transparent;
-    float: left; }
-  .homepage .search_box span {
-    position: absolute;
-    top: 10px;
-    right: 65px;
-    font-size: 18px;
-    color: #666; }
-  .homepage .search_box button {
-    width: 50px;
-    height: 35px;
-    right: 0;
-    line-height: 35px;
-    border: none;
-    background-color: #f10215;
-    float: left;
-    color: #fff; }
-
-.homepage .shopping_trolley {
-  width: 190px;
-  height: 35px;
-  position: absolute;
-  top: 25px;
-  right: 100px;
-  background: #fff;
-  text-align: center;
-  line-height: 33px;
-  color: #f10214; }
-  .homepage .shopping_trolley span {
-    margin-right: 5px; }
-  .homepage .shopping_trolley a {
-    color: #f10214; }
-
-.homepage .hotwords {
-  width: 550px;
-  height: 20px;
-  position: absolute;
-  left: 320px;
-  top: 65px;
-  line-height: 20px; }
-  .homepage .hotwords .getred {
-    color: #f10215; }
-  .homepage .hotwords a:hover {
-    color: #c81623; }
-  .homepage .hotwords a {
-    margin-right: 10px;
+.homepage {
+  background: #f0f3ef; }
+  .homepage .qf-dingwei {
+    color: red; }
+  .homepage .qf-arrowdown {
+    font-size: 6px;
+    padding-left: 5px; }
+  .homepage .warp {
+    width: 1190px;
+    /* background: pink; */
+    margin: 0 auto; }
+  .homepage .top_img_warp {
+    height: 80px;
+    width: 100%;
+    background: #930d12; }
+  .homepage .top_img {
+    width: 100%;
+    height: 80px;
+    background: url(http://img12.360buyimg.com/da/jfs/t20080/218/1835767673/53056/5198b361/5b3f422eNfd087d19.jpg) no-repeat 50% 0; }
+  .homepage .nav_top {
+    background: #e3e4e5;
+    height: 30px;
+    line-height: 30px;
     color: #999; }
-
-.homepage .navitems {
-  position: absolute;
-  left: 200px;
-  bottom: 0;
-  width: 790px;
-  height: 40px;
-  padding-top: 20px;
-  line-height: 40px; }
-  .homepage .navitems li {
+  .homepage .location {
     float: left;
-    margin-left: 30px; }
-  .homepage .navitems li:nth-child(4) a {
-    padding-right: 10px;
-    border-right: 1px solid #ccc; }
-  .homepage .navitems .navitems_group2 li:nth-child(4) a {
-    padding-right: 10px;
-    border-right: 1px solid #ccc; }
+    margin-left: 10px; }
+  .homepage .nav_top ul {
+    float: right; }
+  .homepage .nav_top ul li {
+    /* height: 12px; */
+    float: left; }
+  .homepage .nav_top ul li a {
+    /* display: inline-block; */
+    /* line-height: 30px; */
+    height: 12px;
+    padding: 0 10px;
+    border-right: 1px solid #999;
+    color: #999; }
+  .homepage .nav_top ul li a:hover {
+    color: #f10215; }
+  .homepage .nav_top ul li a:hover span {
+    color: #999; }
+  .homepage .nav_top ul li:nth-child(1) a {
+    /* background: #fff; */
+    border: none;
+    padding: 0; }
+  .homepage .nav_top ul li:nth-child(9) a {
+    border: none; }
+  .homepage .nav_top ul li:nth-child(2) a {
+    color: #f10215; }
+  .homepage .nav_left_width {
+    width: 190px;
+    height: 10px;
+    position: relative;
+    float: left; }
+  .homepage .nav_left_main {
+    display: block;
+    width: 190px;
+    height: 170px;
+    position: absolute;
+    background-image: url(http://misc.360buyimg.com/mtd/pc/index_2017/2.1.0/static/images/sprite.head.png);
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.2); }
+  .homepage .lbox {
+    width: 200px;
+    height: 170px;
+    visibility: visible;
+    float: left; }
+  .homepage #header {
+    height: 140px;
+    position: relative; }
+  .homepage .search_box_warp {
+    height: 60px;
+    position: relative; }
+  .homepage .search_box {
+    width: 550px;
+    height: 35px;
+    position: absolute;
+    top: 25px;
+    left: 320px; }
+    .homepage .search_box input {
+      padding: 4px 44px 4px 4px;
+      width: 450px;
+      height: 25px;
+      outline: none;
+      border: 1px solid transparent;
+      float: left; }
+    .homepage .search_box span {
+      position: absolute;
+      top: 10px;
+      right: 65px;
+      font-size: 18px;
+      color: #666; }
+    .homepage .search_box button {
+      width: 50px;
+      height: 35px;
+      right: 0;
+      line-height: 35px;
+      border: none;
+      background-color: #f10215;
+      float: left;
+      color: #fff; }
+  .homepage .shopping_trolley {
+    width: 190px;
+    height: 35px;
+    position: absolute;
+    top: 25px;
+    right: 100px;
+    background: #fff;
+    text-align: center;
+    line-height: 33px;
+    color: #f10214; }
+    .homepage .shopping_trolley span {
+      margin-right: 5px; }
+    .homepage .shopping_trolley a {
+      color: #f10214; }
+  .homepage .hotwords {
+    width: 550px;
+    height: 20px;
+    position: absolute;
+    left: 320px;
+    top: 65px;
+    line-height: 20px; }
+    .homepage .hotwords .getred {
+      color: #f10215; }
+    .homepage .hotwords a:hover {
+      color: #c81623; }
+    .homepage .hotwords a {
+      margin-right: 10px;
+      color: #999; }
+  .homepage .navitems {
+    position: absolute;
+    left: 200px;
+    bottom: 0;
+    width: 790px;
+    height: 40px;
+    padding-top: 20px;
+    line-height: 40px; }
+    .homepage .navitems li {
+      float: left;
+      margin-left: 30px; }
+    .homepage .navitems li:nth-child(4) a {
+      padding-right: 10px;
+      border-right: 1px solid #ccc; }
+    .homepage .navitems .navitems_group2 li:nth-child(4) a {
+      padding-right: 10px;
+      border-right: 1px solid #ccc; }
 
 .login .warp {
   width: 990px;
@@ -248,7 +227,7 @@ span {
 
 .login .login_from {
   width: 346px;
-  height: 400px;
+  height: 380px;
   background: white;
   position: absolute;
   top: 15px;
@@ -312,7 +291,24 @@ span {
   .login .login_from .wechat {
     padding-left: 20px;
     padding-right: 20px;
-    line-height: 50px;
+    line-height: 60px;
     border-top: 1px solid #f4f4f4;
     height: 50px;
     background-color: #fcfcfc; }
+    .login .login_from .wechat .wechatul {
+      height: 50px; }
+      .login .login_from .wechat .wechatul .register {
+        float: right; }
+      .login .login_from .wechat .wechatul li {
+        float: left;
+        width: 69px;
+        height: 50px; }
+        .login .login_from .wechat .wechatul li .qf-qq {
+          color: skyblue; }
+        .login .login_from .wechat .wechatul li .qf-wechat {
+          color: green; }
+        .login .login_from .wechat .wechatul li .qq {
+          padding-right: 10px;
+          border-right: 1px solid #ccc; }
+        .login .login_from .wechat .wechatul li i {
+          margin-right: 5px; }
