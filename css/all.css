@@ -339,6 +339,235 @@ span {
             color: red; }
           .login .login_from .wechat .wechatul li i {
             margin-right: 5px; }
-  .login .main_page {
-    height: 480px;
-    background: pink; }
+  .login .register_box {
+    width: 100%; }
+    .login .register_box .progress_bar {
+      width: 400px;
+      height: 50px;
+      margin: 80px auto 0; }
+      .login .register_box .progress_bar b {
+        float: left;
+        font-size: 18px; }
+      .login .register_box .progress_bar p {
+        width: 24px;
+        height: 24px;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        color: #ccc;
+        position: relative;
+        float: left; }
+        .login .register_box .progress_bar p i {
+          position: absolute;
+          top: 15%;
+          left: 30%; }
+      .login .register_box .progress_bar .getgreen {
+        background: green; }
+      .login .register_box .progress_bar .tittle {
+        float: left;
+        margin-right: 100px;
+        margin-top: 10px; }
+      .login .register_box .progress_bar .tittle_r {
+        float: right;
+        margin-top: 10px; }
+    .login .register_box .form_register {
+      margin: 50px auto 186px;
+      width: 400px; }
+      .login .register_box .form_register .reg_other {
+        width: 400px;
+        height: 28px;
+        margin-top: 28px; }
+        .login .register_box .form_register .reg_other .business_registration {
+          float: left; }
+        .login .register_box .form_register .reg_other .International_station_registration {
+          float: right; }
+    .login .register_box .text_box {
+      width: 100%;
+      height: 52px;
+      outline: none;
+      padding: 10px 5px 10px 100px;
+      box-sizing: border-box;
+      margin-bottom: 34px; }
+    .login .register_box .button_box {
+      width: 100%;
+      height: 52px;
+      outline: none;
+      background: red;
+      position: absolute;
+      bottom: 0; }
+    .login .register_box .form_register_box {
+      width: 400px;
+      height: 246px;
+      position: relative; }
+
+.shopping_trolley .warp {
+  width: 990px;
+  /* background: pink; */
+  margin: 0 auto; }
+
+.shopping_trolley .nav_top {
+  background: #e3e4e5;
+  height: 30px;
+  line-height: 30px;
+  color: #999; }
+
+.shopping_trolley .back_homepage {
+  float: left;
+  margin-left: 10px; }
+
+.shopping_trolley .location {
+  float: left;
+  margin-left: 10px; }
+
+.shopping_trolley .nav_top ul {
+  float: right; }
+
+.shopping_trolley .nav_top ul li {
+  /* height: 12px; */
+  float: left; }
+
+.shopping_trolley .nav_top ul li a {
+  /* display: inline-block; */
+  /* line-height: 30px; */
+  height: 12px;
+  padding: 0 10px;
+  border-right: 1px solid #999;
+  color: #999; }
+
+.shopping_trolley .nav_top ul li a:hover {
+  color: #f10215; }
+
+.shopping_trolley .nav_top ul li a:hover span {
+  color: #999; }
+
+.shopping_trolley .nav_top ul li:nth-child(1) a {
+  /* background: #fff; */
+  border: none;
+  padding: 0; }
+
+.shopping_trolley .nav_top ul li:nth-child(9) a {
+  border: none; }
+
+.shopping_trolley .nav_top ul li:nth-child(2) a {
+  color: #f10215; }
+
+.shopping_trolley .logo_and_search {
+  height: 97px;
+  padding-top: 10px; }
+  .shopping_trolley .logo_and_search .logo {
+    float: left;
+    width: 277px;
+    height: 50px;
+    margin: 15px 0 22px;
+    position: relative; }
+    .shopping_trolley .logo_and_search .logo .logo_a {
+      display: block;
+      margin-top: 2px;
+      width: 134px;
+      height: 42px;
+      background: url(http://misc.360buyimg.com/jdf/1.0.0/unit/global-header/5.0.0/i/jdlogo-201708-@1x.png) no-repeat 0 0;
+      background-size: 134px 42px; }
+    .shopping_trolley .logo_and_search .logo .link {
+      overflow: hidden;
+      display: inline-block;
+      position: absolute;
+      width: 100px;
+      height: 40px;
+      line-height: 99em;
+      top: 14px;
+      right: 38px;
+      background: #fff; }
+      .shopping_trolley .logo_and_search .logo .link b {
+        display: inline-block;
+        position: absolute;
+        width: 100px;
+        height: 40px;
+        line-height: 99em;
+        top: 0;
+        right: 0;
+        background: url(http://misc.360buyimg.com/user/cart/widget/header-2017/i/cart-icon.png) #fff no-repeat; }
+  .shopping_trolley .logo_and_search .search {
+    float: right;
+    border: 2px solid #c91623;
+    background: #c91623;
+    height: 24px;
+    margin-top: 30px;
+    overflow: hidden;
+    background: #c91623; }
+    .shopping_trolley .logo_and_search .search .itxt {
+      border: 0;
+      height: 18px;
+      line-height: 18px;
+      width: 260px;
+      padding: 3px 5px;
+      outline: 0; }
+    .shopping_trolley .logo_and_search .search .button:focus {
+      outline: none; }
+    .shopping_trolley .logo_and_search .search .button {
+      display: inline-block;
+      vertical-align: top;
+      width: 48px;
+      height: 24px;
+      background: #c91623;
+      text-align: center;
+      color: #fff;
+      font-weight: 700;
+      -webkit-appearance: none;
+      border: none; }
+
+.shopping_trolley .cart-filter-bar {
+  height: 37px;
+  margin-top: 10px;
+  position: relative; }
+  .shopping_trolley .cart-filter-bar .switch-cart {
+    float: left;
+    position: relative;
+    height: 26px;
+    overflow: hidden; }
+    .shopping_trolley .cart-filter-bar .switch-cart .switch-cart-item {
+      float: left;
+      position: relative;
+      font-weight: 700;
+      font-size: 16px;
+      height: 26px;
+      line-height: 26px;
+      text-align: center;
+      padding: 0 0 10px;
+      cursor: pointer;
+      margin: 5px 30px 0 0; }
+  .shopping_trolley .cart-filter-bar .cart-store {
+    float: right;
+    position: relative;
+    z-index: 5;
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 122px; }
+    .shopping_trolley .cart-filter-bar .cart-store .label {
+      float: left;
+      line-height: 26px; }
+    .shopping_trolley .cart-filter-bar .cart-store .jdarea {
+      position: relative;
+      float: left;
+      z-index: 3;
+      height: 26px;
+      cursor: default;
+      margin: 0; }
+      .shopping_trolley .cart-filter-bar .cart-store .jdarea .ui-area-text-wrap {
+        float: right;
+        position: relative;
+        top: 0;
+        height: 23px;
+        background: #fff;
+        border: 1px solid #CECBCE;
+        padding: 0 24px 0 4px;
+        line-height: 23px;
+        overflow: hidden; }
+        .shopping_trolley .cart-filter-bar .cart-store .jdarea .ui-area-text-wrap b {
+          display: block;
+          position: absolute;
+          top: 3px;
+          right: 4px;
+          width: 17px;
+          height: 17px;
+          background: url(http://img12.360buyimg.com/uba/jfs/t4660/73/4024943067/1159/f1a90f68/59088392N8b6279bb.png) no-repeat 3px 5px;
+          overflow: hidden;
+          background-repeat: no-repeat; }

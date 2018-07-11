@@ -179,8 +179,81 @@
             }
         }
     }
-    .main_page {
-        height: 480px;
-        background: pink;
+    //注册页的CSS写这里了
+    .register_box {
+        // background: pink;
+        width: 100%;
+        // height: 800px;
+        .progress_bar {
+            width: 400px;
+            height: 50px;
+            margin: 80px auto 0;
+            b {
+                float: left;
+                font-size: 18px;
+            }
+            p {
+                width: 24px;
+                height: 24px;
+                border: 1px solid #ccc;
+                border-radius: 50%;
+                color: #ccc;
+                position: relative;
+                float: left;
+                i {
+                    position: absolute;
+                    top: 15%;
+                    left: 30%;
+                }
+            }
+            .getgreen {
+                background: green;
+            }
+            .tittle {
+                float: left;
+                margin-right: 100px;
+                margin-top: 10px;
+            }
+            .tittle_r {
+                float: right;
+                margin-top: 10px;
+            }
+        }
+        .form_register {
+            margin: 50px auto 186px;
+            width: 400px;
+            .reg_other {
+                width: 400px;
+                height: 28px;
+                margin-top: 28px;
+                .business_registration {
+                    float: left;
+                }
+                .International_station_registration {
+                    float: right;
+                }
+            }
+        }
+        .text_box {
+            width: 100%;
+            height: 52px;
+            outline: none;
+            padding: 10px 5px 10px 100px;
+            box-sizing: border-box;
+            margin-bottom: 34px;
+        }
+        .button_box {
+            width: 100%;
+            height: 52px;
+            outline: none;
+            background: red;
+            position: absolute;
+            bottom: 0;
+        }
+        .form_register_box {
+            width: 400px;
+            height: 246px;
+            position: relative;
+        }
     }
 }

@@ -1,0 +1,222 @@
+.shopping_trolley {
+    .warp {
+        width: 990px;
+        /* background: pink; */
+        margin: 0 auto;
+    }
+    .nav_top {
+        background: #e3e4e5;
+        ;
+        height: 30px;
+        line-height: 30px;
+        color: #999;
+    }
+    .back_homepage {
+        float: left;
+        margin-left: 10px;
+    }
+    .location {
+        // display: inline-block;
+        float: left;
+        margin-left: 10px;
+    }
+    .nav_top ul {
+        float: right;
+    }
+    .nav_top ul li {
+        /* height: 12px; */
+        float: left;
+    }
+    .nav_top ul li a {
+        /* display: inline-block; */
+        /* line-height: 30px; */
+        height: 12px;
+        padding: 0 10px;
+        border-right: 1px solid #999;
+        color: #999;
+    }
+    .nav_top ul li a:hover {
+        color: #f10215;
+    }
+    .nav_top ul li a:hover span {
+        color: #999;
+    }
+    .nav_top ul li:nth-child(1) a {
+        /* background: #fff; */
+        border: none;
+        padding: 0;
+    }
+    .nav_top ul li:nth-child(9) a {
+        border: none;
+    }
+    .nav_top ul li:nth-child(2) a {
+        color: #f10215
+    }
+    //logo 和 搜索
+    .logo_and_search {
+        height: 97px;
+        padding-top: 10px;
+        .logo {
+            float: left;
+            width: 277px;
+            height: 50px;
+            margin: 15px 0 22px;
+            // background: pink;
+            position: relative;
+            .logo_a {
+                display: block;
+                margin-top: 2px;
+                width: 134px;
+                height: 42px;
+                background: url(http://misc.360buyimg.com/jdf/1.0.0/unit/global-header/5.0.0/i/jdlogo-201708-@1x.png) no-repeat 0 0;
+                background-size: 134px 42px;
+            }
+            .link {
+                overflow: hidden;
+                display: inline-block;
+                position: absolute;
+                width: 100px;
+                height: 40px;
+                line-height: 99em;
+                top: 14px;
+                right: 38px;
+                background: #fff;
+                b {
+                    display: inline-block;
+                    position: absolute;
+                    width: 100px;
+                    height: 40px;
+                    line-height: 99em;
+                    top: 0;
+                    right: 0;
+                    background: url(http://misc.360buyimg.com/user/cart/widget/header-2017/i/cart-icon.png) #fff no-repeat;
+                }
+            }
+        }
+        .search {
+            float: right;
+            border: 2px solid #c91623;
+            background: #c91623;
+            height: 24px;
+            margin-top: 30px;
+            overflow: hidden;
+            background: #c91623;
+            .itxt {
+                border: 0;
+                height: 18px;
+                line-height: 18px;
+                width: 260px;
+                padding: 3px 5px;
+                outline: 0;
+            }
+            .button:focus {
+                outline: none;
+            }
+            .button {
+                display: inline-block;
+                vertical-align: top;
+                width: 48px;
+                height: 24px;
+                background: #c91623;
+                text-align: center;
+                color: #fff;
+                font-weight: 700;
+                -webkit-appearance: none;
+                border: none;
+            }
+        }
+    }
+    //logo 和 搜索 结束
+    .cart-filter-bar {
+        height: 37px;
+        margin-top: 10px;
+        position: relative;
+        .switch-cart {
+            float: left;
+            position: relative;
+            height: 26px;
+            overflow: hidden;
+            .switch-cart-item {
+                float: left;
+                position: relative;
+                font-weight: 700;
+                font-size: 16px;
+                height: 26px;
+                line-height: 26px;
+                text-align: center;
+                padding: 0 0 10px;
+                cursor: pointer;
+                margin: 5px 30px 0 0;
+            }
+        }
+        .cart-store {
+            float: right;
+            position: relative;
+            z-index: 5;
+            // display: inline-block;
+            display: block;
+            margin-bottom: 10px;
+            padding-left: 122px;
+            .label {
+                float: left;
+                line-height: 26px;
+            }
+            .jdarea {
+                // width: 138px;
+                // height: 26px;
+                position: relative;
+                float: left;
+                z-index: 3;
+                height: 26px;
+                cursor: default;
+                margin: 0;
+                // border: 1px solid #ccc;
+                .ui-area-text-wrap {
+                    float: right;
+                    position: relative;
+                    top: 0;
+                    height: 23px;
+                    background: #fff;
+                    border: 1px solid #CECBCE;
+                    padding: 0 24px 0 4px;
+                    line-height: 23px;
+                    overflow: hidden;
+                    b {
+                        display: block;
+                        position: absolute;
+                        top: 3px;
+                        right: 4px;
+                        width: 17px;
+                        height: 17px;
+                        background: url(http://img12.360buyimg.com/uba/jfs/t4660/73/4024943067/1159/f1a90f68/59088392N8b6279bb.png) no-repeat 3px 5px;
+                        overflow: hidden;
+                        background-repeat: no-repeat;
+                    }
+                }
+            }
+        }
+    }
+    ..cart-warp {
+        background: #fff;
+        margin-bottom: 20px;
+        .cart-thead {
+            display: block;
+            height: 32px;
+            line-height: 32px;
+            margin: 0 0 10px;
+            padding: 5px 0;
+            background: #f3f3f3;
+            border: 1px solid #e9e9e9;
+            border-top: 0;
+            position: relative;
+            .t-checkbox {
+                float: left;
+                height: 18px;
+                line-height: 18px;
+                padding-top: 7px;
+                width: 122px;
+                padding-left: 11px;
+            }
+        }
+    }
+}
