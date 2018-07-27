@@ -196,7 +196,7 @@
             }
         }
     }
-    ..cart-warp {
+    .cart-warp {
         background: #fff;
         margin-bottom: 20px;
         .cart-thead {
@@ -216,6 +216,94 @@
                 padding-top: 7px;
                 width: 122px;
                 padding-left: 11px;
+            }
+            .price {
+                float: right;
+                margin: 0 45px;
+            }
+            .quantity {
+                float: right;
+                margin: 0 45px;
+            }
+            .subtotal {
+                float: right;
+                margin-left: 40px;
+            }
+            .operation {
+                float: right;
+                margin: 0 55px;
+            }
+        }
+    }
+    .cart-item-list {
+        margin-bottom: 20px;
+        .item-list {
+            height: 200px;
+            background-color: #fff;
+            border-top: 3px solid #aaa;
+            .item-header ul {
+                height: 26px;
+                background: #fff;
+                li {
+                    float: left;
+                    line-height: 26px;
+                    span {
+                        display: inline-block;
+                        background: #e4393c;
+                        margin-right: 10px;
+                        margin-left: 15px;
+                        height: 18px;
+                        line-height: 18px;
+                        border-radius: 4px;
+                        padding: 0 2px 0 2px;
+                    }
+                }
+            }
+            .item-item {
+                background-color: #c91623;
+                position: relative;
+                [type="checkbox"] {
+                    position: absolute;
+                    top: 20px;
+                    left: 10px;
+                }
+                .item-text {
+                    padding: 0 0 0 40px;
+                    .item-a {
+                        line-height: 22px;
+                    }
+                    .item-img {
+                        width: 70px;
+                        height: 90px;
+                        background: #ccc;
+                        float: left;
+                        margin-right: 15px;
+                    }
+                }
+                li {
+                    padding: 15px 0 15px 5px;
+                    background: #fff4e8;
+                    width: 100%;
+                }
+            }
+        }
+        .shop {
+            height: 30px;
+            line-height: 30px;
+            padding-left: 11px;
+            font-weight: 700;
+            span {
+                display: inline-block;
+                width: 54px;
+                height: 18px;
+                line-height: 18px;
+                background: #e4393c;
+                color: #f3f3f3;
+                text-align: center;
+                position: relative;
+                top: -3px;
+                left: 4px;
+                border-radius: 3px;
             }
         }
     }
